@@ -7,3 +7,4 @@ export { default as Platform3 } from "./3-Taxation-3.png";
 export { default as Platform4 } from "./4-Housing-4.png";
 export { default as Platform5 } from "./5-Union-5.png";
 export { default as Platform6 } from "./6-Community-6.png";
+export { default as InstagramLogo } from "./Instagram_Glyph_Gradient.png";

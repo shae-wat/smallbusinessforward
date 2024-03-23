@@ -6,7 +6,7 @@ export const Colors = {
   logoYellow: "#FFF100", //Logo, muted yellow backgrounds
   black: "#212121",
   titleCardBackground: "#665F6B",
-  cardBackground: "#685D6F",
+  cardBackground: "#4D4653",
   cardLink: "#C0E1F1",
   footerBackground: "#636363",
   border: "#D1D1D1",

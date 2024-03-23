@@ -39,6 +39,7 @@ export const Card = styled.section`
     position: relative;
     ${tabletMediaQuery(`width: auto;`)}
   }
+  ${mobileMediaQuery(`width: 95% !important`)}
 `;
 
 export const CardTextContent = styled.div`

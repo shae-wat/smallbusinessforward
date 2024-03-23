@@ -1,5 +1,9 @@
 import styled from "styled-components";
-import { mobileMediaQuery, finalSqueezeQuery } from "./breakpoints";
+import {
+  mobileMediaQuery,
+  finalSqueezeQuery,
+  desktopOnlyMediaQuery,
+} from "./breakpoints";
 import { Colors } from "./colors";
 
 export const ButtonCSS = `
@@ -41,6 +45,7 @@ export const Button = styled.a`
     padding: 20px;
     border-radius: 6px;
     width: 30%;
+    ${mobileMediaQuery(`width: 70%`)}
     margin-right: auto;
     margin-left: auto;
     ${mobileMediaQuery(`padding: 10px; border-radius: 10px;`)}

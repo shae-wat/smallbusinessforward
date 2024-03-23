@@ -10,7 +10,7 @@ import {
   HEADER_HEIGHT,
   DesktopOnlyButton,
 } from "../styles";
-import { SBFLogoHeader } from "../images";
+import { SBFLogoCircle } from "../images";
 
 const AppHeader = styled.header`
   position: -webkit-sticky; /* for browser compatibility */
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
   return (
     <AppHeader>
       <AppTitle>
-        <img src={SBFLogoHeader} height={50} alt="Small Business Forward" />
+        <img src={SBFLogoCircle} height={66} alt="Small Business Forward" />
       </AppTitle>
       <DesktopOnlyButton
         target="_blank"

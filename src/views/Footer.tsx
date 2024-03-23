@@ -10,6 +10,7 @@ import {
   SubheaderFont,
   LinkText,
 } from "../styles";
+import { InstagramLogo } from "../images";
 
 const AppFooter = styled.footer`
   display: flex;
@@ -57,6 +58,9 @@ const Footer: React.FC = () => {
           Contributions are not tax-deductible.
         </ParagraphFont>
       </DetailsSection>
+      <a href="https://www.instagram.com/smallbusinessforward/" target="_blank">
+        <img src={InstagramLogo} style={{ width: "40px" }} />
+      </a>
     </AppFooter>
   );
 };
