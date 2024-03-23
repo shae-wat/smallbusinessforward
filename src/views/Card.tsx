@@ -46,7 +46,7 @@ export const CardTextContent = styled.div`
   display: flex;
   flex-direction: column;
 
-  padding: ${rhythm(2)}px ${gutter(1)}px ${rhythm(2 / 3)}px ${gutter(2)}px;
+  padding: ${rhythm(1 / 12)}px ${gutter(1)}px ${rhythm(2 / 3)}px ${gutter(2)}px;
   ${mobileMediaQuery(`width: 90% !important`)}
   ${tabletMediaQuery(
     `padding: ${rhythm(1)}px ${gutter(1)}px`

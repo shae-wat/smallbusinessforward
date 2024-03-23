@@ -33,13 +33,16 @@ export const DesktopOnlyButton = styled.a`
 export const Button = styled.a`
   &,
   &:visited {
-    display: inline;
+    display: block;
     text-decoration: none;
     color: ${Colors.white};
     background-color: ${Colors.black};
     font-weight: bold;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 6px;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
     ${mobileMediaQuery(`padding: 10px; border-radius: 10px;`)}
   }
 `;
