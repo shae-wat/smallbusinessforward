@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { HEADER_HEIGHT } from "./styles";
+import { Home } from "./pages";
+import { CONTENT_MAX_WIDTH, HEADER_HEIGHT } from "./styles";
 import { Header, Footer } from "./views";
 import {
   apiKey,
@@ -36,13 +37,16 @@ getAnalytics(app);
 
 const Main = styled.main`
   min-height: ${100 - HEADER_HEIGHT}vh;
+  max-width: ${CONTENT_MAX_WIDTH}px;
 `;
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Main>
+        <Home />
+      </Main>
       <Footer />
     </div>
   );

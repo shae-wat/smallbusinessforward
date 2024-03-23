@@ -19,9 +19,8 @@ const AppHeader = styled.header`
   align-items: center;
   justify-content: space-between;
   min-height: ${HEADER_HEIGHT}vh;
-  background-color: ${Colors.footerBackground};
+  background-color: ${Colors.neutralGreen};
 
-  max-width: ${CONTENT_MAX_WIDTH}px;
   margin-right: auto;
   margin-left: auto;
 
