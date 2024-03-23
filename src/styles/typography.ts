@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { mobileMediaQuery, finalSqueezeQuery } from './breakpoints';
-import { Colors } from './colors';
+import styled from "styled-components";
+import { mobileMediaQuery, finalSqueezeQuery } from "./breakpoints";
+import { Colors } from "./colors";
 
 export const FontCSS = `
   letter-spacing: 0.08px;
@@ -37,6 +37,8 @@ export const SubheaderFont = styled.h2`
 
 export const ParagraphFont = styled.p`
   ${FontCSS}
+  color: ${(props: { color?: typeof Colors.millenialPink }) =>
+    props.color || Colors.white};
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;

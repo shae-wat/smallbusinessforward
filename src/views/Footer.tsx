@@ -5,7 +5,6 @@ import {
   Colors,
   tabletMediaQuery,
   gutter,
-  CONTENT_MAX_WIDTH,
   HEADER_HEIGHT,
   ParagraphFont,
   SubheaderFont,
@@ -18,10 +17,9 @@ const AppFooter = styled.footer`
   align-items: center;
   justify-content: flex-start;
   min-height: ${HEADER_HEIGHT * 3}vh;
-  background-color: ${Colors.footerBackground};
+  background-color: ${Colors.background};
 
   position: relative;
-  max-width: ${CONTENT_MAX_WIDTH}px;
   margin-right: auto;
   margin-left: auto;
 
