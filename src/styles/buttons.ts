@@ -21,7 +21,7 @@ export const DesktopOnlyButton = styled.a`
     display: inline;
     text-decoration: none;
     color: ${Colors.white};
-    background-color: ${Colors.button};
+    background-color: ${Colors.black};
     font-weight: bold;
     font-size: 14px;
     padding: 16px;
@@ -36,7 +36,7 @@ export const Button = styled.a`
     display: inline;
     text-decoration: none;
     color: ${Colors.white};
-    background-color: ${Colors.button};
+    background-color: ${Colors.black};
     font-weight: bold;
     padding: 20px;
     border-radius: 20px;

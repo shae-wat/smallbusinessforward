@@ -3,14 +3,18 @@ import {
   rhythm,
   gutter,
   Colors,
+  mobileMediaQuery,
   tabletMediaQuery,
   desktopOnlyMediaQuery,
+  CONTENT_MAX_WIDTH,
 } from "../styles";
 
 export const Card = styled.section`
   position: relative;
   display: flex;
-
+  max-width: ${CONTENT_MAX_WIDTH}px;
+  margin-right: auto;
+  margin-left: auto;
   flex-direction: row;
   padding: ${rhythm(1)}px ${gutter(1)}px;
   ${tabletMediaQuery(`
@@ -19,17 +23,13 @@ export const Card = styled.section`
   `)}
 
   justify-content: space-between;
-  background-color: ${Colors.cardBackground};
   border-radius: 4px;
-
-  background-color: ${Colors.cardBackground};
 
   > *:first-child {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
-    width: 60%;
     ${tabletMediaQuery(`width: auto;`)}
   }
   > *:last-child {
@@ -37,7 +37,6 @@ export const Card = styled.section`
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
-    width: 40%;
     ${tabletMediaQuery(`width: auto;`)}
   }
 `;
@@ -48,8 +47,10 @@ export const CardTextContent = styled.div`
   flex-direction: column;
 
   padding: ${rhythm(2)}px ${gutter(1)}px ${rhythm(2 / 3)}px ${gutter(2)}px;
-
-  ${tabletMediaQuery(`padding: ${rhythm(1)}px ${gutter(1)}px`)}
+  ${mobileMediaQuery(`width: 90% !important`)}
+  ${tabletMediaQuery(
+    `padding: ${rhythm(1)}px ${gutter(1)}px`
+  )}
 
   > *:first-child {
     margin-bottom: ${rhythm(1)}px;
@@ -65,4 +66,5 @@ export const CardImageContent = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
+  ${mobileMediaQuery(`width: 100% !important`)}
 `;
