@@ -294,6 +294,18 @@ const FeaturedWorkPage: React.FC = () => {
         >
           Sign up for the newsletter
         </Button>
+        <Button
+          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSddzNGNtlMiXp5aCUK3a4QtSPAF0Cv21SW_7RtZMkcj9JGPQw/viewform"
+        >
+          Sign up for advocacy
+        </Button>
+        <Button
+          target="_blank"
+          href="https://actionnetwork.org/fundraising/donate-small-business-forward/"
+        >
+          Donate
+        </Button>
       </PageCardLayout>
     </Page>
   );

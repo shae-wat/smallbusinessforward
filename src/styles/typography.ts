@@ -51,6 +51,7 @@ export const MicroFont = styled.p`
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  color: ${Colors.white};
 
   ${mobileMediaQuery(`font-size: 12px; line-height: 14px;`)}
 `;
