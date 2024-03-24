@@ -37,7 +37,6 @@ getAnalytics(app);
 
 const Main = styled.main`
   min-height: ${100 - HEADER_HEIGHT}vh;
-  max-width: ${CONTENT_MAX_WIDTH}px;
 `;
 
 function App() {

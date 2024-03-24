@@ -1,12 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  gutter,
-  rhythm,
-  mobileMediaQuery,
-  tabletMediaQuery,
-  CONTENT_MAX_WIDTH,
-} from "../styles";
+import { gutter, rhythm, mobileMediaQuery, tabletMediaQuery } from "../styles";
 
 export const PageTitleLayout = styled.div`
   margin-bottom: ${rhythm(3 / 2)}px;
@@ -54,12 +48,11 @@ interface PageProps {
 }
 
 const StyledPage = styled.section`
+  display: block;
   position: relative;
-  max-width: ${CONTENT_MAX_WIDTH}px;
-
-  margin-left: auto;
   margin-right: auto;
-  padding: ${rhythm(2)}px 0;
+  margin-left: auto;
+  padding: ${rhythm(1)}px 0;
   ${tabletMediaQuery(`padding: ${rhythm(2)}px ${gutter(1)}px`)};
   ${mobileMediaQuery(`padding: ${rhythm(3 / 2)}px ${gutter(1 / 3)}px;`)};
 `;

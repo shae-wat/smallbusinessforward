@@ -2,13 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import {
   Colors,
+  rhythm,
   gutter,
   CONTENT_MAX_WIDTH,
   mobileMediaQuery,
   HeaderFont,
   HEADER_HEIGHT,
+  DesktopOnlyButton,
 } from "../styles";
-import { SBFLogoHeader } from "../images";
+import { SBFLogoCircle } from "../images";
 
 const AppHeader = styled.header`
   position: -webkit-sticky; /* for browser compatibility */
@@ -24,8 +26,10 @@ const AppHeader = styled.header`
   margin-right: auto;
   margin-left: auto;
 
-  padding: 0 ${gutter(1)}px;
+  padding: 0 ${gutter(12)}px;
+  ${mobileMediaQuery(`padding: ${rhythm(1 / 12)}px ${gutter(1)}px;`)}
   border-radius: 0 0 4px 4px;
+  z-index: 999;
 `;
 
 const AppTitle = styled.span`
@@ -42,8 +46,14 @@ const Header: React.FC = () => {
   return (
     <AppHeader>
       <AppTitle>
-        <img src={SBFLogoHeader} height={50} alt="Small Business Forward" />
+        <img src={SBFLogoCircle} height={66} alt="Small Business Forward" />
       </AppTitle>
+      <DesktopOnlyButton
+        target="_blank"
+        href="https://actionnetwork.org/forms/subscribe-small-business-forward/"
+      >
+        Sign up for the newsletter
+      </DesktopOnlyButton>
     </AppHeader>
   );
 };

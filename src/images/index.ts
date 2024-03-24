@@ -1,3 +1,10 @@
 export { default as SBFLogoCircle } from "./sbf-arrow-circle.png";
 export { default as SBFLogoCard } from "./SBF_Master-Logo-Stacked_Yellow.png";
 export { default as SBFLogoHeader } from "./SBF_Arrow-Horizontal.png";
+export { default as Platform1 } from "./1-Dev-1.png";
+export { default as Platform2 } from "./2-Rent-2.png";
+export { default as Platform3 } from "./3-Taxation-3.png";
+export { default as Platform4 } from "./4-Housing-4.png";
+export { default as Platform5 } from "./5-Union-5.png";
+export { default as Platform6 } from "./6-Community-6.png";
+export { default as InstagramLogo } from "./Instagram_Glyph_Gradient.png";

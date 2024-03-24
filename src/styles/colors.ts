@@ -4,8 +4,9 @@ export const Colors = {
   // brand colors
   neutralGreen: "#546e7a", //Buttons, borders, spreadsheet headers, muted darker backgrounds
   logoYellow: "#FFF100", //Logo, muted yellow backgrounds
+  black: "#212121",
   titleCardBackground: "#665F6B",
-  cardBackground: "#685D6F",
+  cardBackground: "#42464c",
   cardLink: "#C0E1F1",
   footerBackground: "#636363",
   border: "#D1D1D1",
