@@ -17,11 +17,12 @@ export const FontCSS = `
 
 export const HeaderFont = styled.h1`
   ${FontCSS}
-  font-weight: 700;
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #3e4142;
   line-height: 36px;
 
-  ${mobileMediaQuery(`font-size: 18px; line-height: 26px;`)}
+  ${mobileMediaQuery(`font-size: 24px; line-height: 26px;`)}
 `;
 
 export const SubheaderFont = styled.h2`
