@@ -36,12 +36,12 @@ const FeaturedWorkPage: React.FC = () => {
               }}
             />
           </CardImageContent>
-          <CardTextContent style={{ width: "60%" }}>
+          <CardTextContent style={{ width: "60%", paddingBottom: 0 }}>
             <HeaderFont>
               Founded by San Francisco small businesses to advocate for a better
               future
             </HeaderFont>
-            <ParagraphFont color={Colors.black}>
+            <ParagraphFont color={Colors.offBlack}>
               We believe our city can allow our diverse small business community
               to thrive— and we are committed to fighting for policies that
               forward these goals. We serve as a resource for small business
@@ -62,14 +62,6 @@ const FeaturedWorkPage: React.FC = () => {
             paddingTop: `${rhythm(2)}px`,
           }}
         >
-          <HeaderFont
-            style={{
-              color: Colors.white,
-              textAlign: "center",
-            }}
-          >
-            Our Platform
-          </HeaderFont>
           <Card>
             <CardTextContent style={{ width: "30%" }}>
               <img

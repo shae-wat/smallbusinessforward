@@ -4,6 +4,7 @@ import {
   rhythm,
   Colors,
   tabletMediaQuery,
+  desktopOnlyMediaQuery,
   gutter,
   HEADER_HEIGHT,
   ParagraphFont,
@@ -45,12 +46,13 @@ const DetailsSection = styled.div`
   > p {
     margin-top: ${rhythm(1)}px;
   }
+  ${desktopOnlyMediaQuery(`width: "30%"`)}
 `;
 
 const Footer: React.FC = () => {
   return (
     <AppFooter>
-      <DetailsSection style={{ width: "30%" }}>
+      <DetailsSection>
         <MicroFont style={{ textAlign: "center" }}>Contact us:</MicroFont>
         <ParagraphFont
           style={{
