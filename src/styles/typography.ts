@@ -19,7 +19,7 @@ export const HeaderFont = styled.h1`
   ${FontCSS}
   font-size: 32px;
   font-weight: bold;
-  color: #3e4142;
+  color: ${Colors.offBlack};
   line-height: 36px;
 
   ${mobileMediaQuery(`font-size: 24px; line-height: 26px;`)}
