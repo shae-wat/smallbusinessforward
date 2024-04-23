@@ -27,7 +27,7 @@ const FeaturedWorkPage: React.FC = () => {
           <CardImageContent style={{ width: "50%" }}>
             <img
               src={SBFLogoCard}
-              alt="image of speculative financialization versus community-oriented development"
+              alt="Small Business Forward"
               style={{
                 display: "block",
                 width: "100%",
@@ -66,7 +66,7 @@ const FeaturedWorkPage: React.FC = () => {
             <CardTextContent style={{ width: "30%" }}>
               <img
                 src={Platform1}
-                alt="image of speculative financialization versus community-oriented development"
+                alt="speculative financialization versus community-oriented small business funding"
                 style={{
                   display: "block",
                   width: "100%",
@@ -79,7 +79,7 @@ const FeaturedWorkPage: React.FC = () => {
               </HeaderFont>
               <ParagraphFont color={Colors.white}>
                 Increased & streamlined access to city resources, grants, and
-                programs to help nascent & legacy small businesses thrive
+                programs to help nascent & legacy small businesses thrive.
                 Investment in all San Franciscans, including access to capital &
                 opportunities to start new businesses.
               </ParagraphFont>
@@ -99,7 +99,7 @@ const FeaturedWorkPage: React.FC = () => {
             <CardTextContent style={{ width: "30%" }}>
               <img
                 src={Platform2}
-                alt="image of speculative financialization versus community-oriented development"
+                alt="commercial rent control advocacy versus business closures and storefront vacancies"
                 style={{
                   display: "block",
                   width: "100%",
@@ -132,7 +132,7 @@ const FeaturedWorkPage: React.FC = () => {
             <CardTextContent style={{ width: "30%" }}>
               <img
                 src={Platform3}
-                alt="image of speculative financialization versus community-oriented development"
+                alt="progressively larger piggy banks with progressively taller stacks of cash, the largest piggybank has the most cash underneath it"
                 style={{
                   display: "block",
                   width: "100%",
@@ -168,7 +168,7 @@ const FeaturedWorkPage: React.FC = () => {
             <CardTextContent style={{ width: "30%" }}>
               <img
                 src={Platform4}
-                alt="image of speculative financialization versus community-oriented development"
+                alt="affordable housing for SF workers versus Commuting from outside areas"
                 style={{
                   display: "block",
                   width: "100%",
@@ -203,7 +203,7 @@ const FeaturedWorkPage: React.FC = () => {
             <CardTextContent style={{ width: "30%" }}>
               <img
                 src={Platform5}
-                alt="image of speculative financialization versus community-oriented development"
+                alt="right to unionize: hand holding union card, shop with sign that says proudly union"
                 style={{
                   display: "block",
                   width: "100%",
@@ -235,7 +235,7 @@ const FeaturedWorkPage: React.FC = () => {
             <CardTextContent style={{ width: "30%" }}>
               <img
                 src={Platform6}
-                alt="image of speculative financialization versus community-oriented development"
+                alt="Community Safety: multiple hands reach towards a person with a heart icon, the hands have overlaying text that says: mental health teams, safe consumption sites, community ambassadors, healthy public conditions"
                 style={{
                   display: "block",
                   width: "100%",
