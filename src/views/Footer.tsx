@@ -68,7 +68,11 @@ const Footer: React.FC = () => {
           href="https://www.instagram.com/smallbusinessforward/"
           target="_blank"
         >
-          <img src={InstagramLogo} style={{ width: "40px" }} />
+          <img
+            alt="Instagram profile link for Small Business Forward"
+            src={InstagramLogo}
+            style={{ width: "40px" }}
+          />
         </a>
         <MicroFont style={{ textAlign: "center" }}>
           Small Business Forward is a 501(c)(4) public benefit organization.
