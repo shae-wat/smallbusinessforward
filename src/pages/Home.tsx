@@ -290,7 +290,7 @@ const FeaturedWorkPage: React.FC = () => {
           target="_blank"
           href="https://docs.google.com/forms/d/e/1FAIpQLSddzNGNtlMiXp5aCUK3a4QtSPAF0Cv21SW_7RtZMkcj9JGPQw/viewform"
         >
-          Sign up for advocacy
+          Become a member
         </Button>
         <Button
           target="_blank"
