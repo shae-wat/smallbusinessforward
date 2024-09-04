@@ -75,72 +75,84 @@ const FeaturedWorkPage: React.FC = () => {
               >
                 2024 General Election Endorsements
               </HeaderFont>
-              <img
-                src={EndorsedAaron}
-                alt="endorsed california ballot measures general election 2024"
-                style={{
-                  display: "block",
-                  width: "45%",
-                  height: "auto",
-                  objectFit: "contain",
-                }}
-              />
+              <CardImageContent>
+                <img
+                  src={EndorsedAaron}
+                  alt="endorsed california ballot measures general election 2024"
+                  style={{
+                    display: "block",
+                    height: "auto",
+                    width: "100%",
+                    objectFit: "contain",
+                  }}
+                />
+              </CardImageContent>
             </Card>
             <Card>
-              <img
-                src={EndorsedConnie}
-                alt="endorsed california ballot measures general election 2024"
-                style={{
-                  display: "block",
-                  width: "45%",
-                  height: "auto",
-                  objectFit: "contain",
-                }}
-              />
-              <img
-                src={EndorsedDean}
-                alt="endorsed california ballot measures general election 2024"
-                style={{
-                  display: "block",
-                  width: "45%",
-                  height: "auto",
-                  objectFit: "contain",
-                }}
-              />
-              <img
-                src={EndorsedJackie}
-                alt="endorsed california ballot measures general election 2024"
-                style={{
-                  display: "block",
-                  width: "45%",
-                  height: "auto",
-                  objectFit: "contain",
-                }}
-              />
+              <CardImageContent>
+                <img
+                  src={EndorsedConnie}
+                  alt="endorsed california ballot measures general election 2024"
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
+                  }}
+                />
+              </CardImageContent>
+              <CardImageContent>
+                <img
+                  src={EndorsedDean}
+                  alt="endorsed california ballot measures general election 2024"
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
+                  }}
+                />
+              </CardImageContent>
+              <CardImageContent>
+                <img
+                  src={EndorsedJackie}
+                  alt="endorsed california ballot measures general election 2024"
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
+                  }}
+                />
+              </CardImageContent>
             </Card>
           </a>
           <a href="https://www.instagram.com/p/C_dn9Pdvc0S/" target="_blank">
             <Card>
-              <img
-                src={EndorsedCA}
-                alt="endorsed california ballot measures general election 2024"
-                style={{
-                  display: "block",
-                  width: "45%",
-                  height: "auto",
-                  objectFit: "contain",
-                }}
-              />
-              <img
-                src={EndorsedSF}
-                alt="endorsed san francisco ballot measures general election 2024"
-                style={{
-                  display: "block",
-                  width: "45%",
-                  height: "auto",
-                  objectFit: "contain",
-                }}
-              />
+              <CardImageContent>
+                <img
+                  src={EndorsedCA}
+                  alt="endorsed california ballot measures general election 2024"
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
+                  }}
+                />
+              </CardImageContent>
+              <CardImageContent>
+                <img
+                  src={EndorsedSF}
+                  alt="endorsed san francisco ballot measures general election 2024"
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
+                  }}
+                />
+              </CardImageContent>
             </Card>
           </a>
           <Card>
