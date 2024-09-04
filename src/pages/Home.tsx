@@ -8,6 +8,12 @@ import {
   Platform4,
   Platform5,
   Platform6,
+  EndorsedAaron,
+  EndorsedConnie,
+  EndorsedDean,
+  EndorsedJackie,
+  EndorsedCA,
+  EndorsedSF,
 } from "../images";
 import {
   HeaderFont,
@@ -62,6 +68,81 @@ const FeaturedWorkPage: React.FC = () => {
             paddingTop: `${rhythm(2)}px`,
           }}
         >
+          <a href="https://www.instagram.com/p/C_dzMW4y00o/" target="_blank">
+            <Card style={{ flexDirection: "column", alignItems: "center" }}>
+              <HeaderFont
+                style={{ color: Colors.white, paddingBottom: "24px" }}
+              >
+                2024 General Election Endorsements
+              </HeaderFont>
+              <img
+                src={EndorsedAaron}
+                alt="endorsed california ballot measures general election 2024"
+                style={{
+                  display: "block",
+                  width: "45%",
+                  height: "auto",
+                  objectFit: "contain",
+                }}
+              />
+            </Card>
+            <Card>
+              <img
+                src={EndorsedConnie}
+                alt="endorsed california ballot measures general election 2024"
+                style={{
+                  display: "block",
+                  width: "45%",
+                  height: "auto",
+                  objectFit: "contain",
+                }}
+              />
+              <img
+                src={EndorsedDean}
+                alt="endorsed california ballot measures general election 2024"
+                style={{
+                  display: "block",
+                  width: "45%",
+                  height: "auto",
+                  objectFit: "contain",
+                }}
+              />
+              <img
+                src={EndorsedJackie}
+                alt="endorsed california ballot measures general election 2024"
+                style={{
+                  display: "block",
+                  width: "45%",
+                  height: "auto",
+                  objectFit: "contain",
+                }}
+              />
+            </Card>
+          </a>
+          <a href="https://www.instagram.com/p/C_dn9Pdvc0S/" target="_blank">
+            <Card>
+              <img
+                src={EndorsedCA}
+                alt="endorsed california ballot measures general election 2024"
+                style={{
+                  display: "block",
+                  width: "45%",
+                  height: "auto",
+                  objectFit: "contain",
+                }}
+              />
+              <img
+                src={EndorsedSF}
+                alt="endorsed san francisco ballot measures general election 2024"
+                style={{
+                  display: "block",
+                  width: "45%",
+                  height: "auto",
+                  objectFit: "contain",
+                }}
+              />
+            </Card>
+          </a>
           <Card>
             <CardTextContent style={{ width: "30%" }}>
               <img
