@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
   return (
     <AppFooter>
       <DetailsSection>
-        <MicroFont style={{ textAlign: "center" }}>Media queries:</MicroFont>
+        <MicroFont style={{ textAlign: "center" }}>Media inquiries:</MicroFont>
         <MicroFont style={{ textAlign: "center" }}>Contact us:</MicroFont>
         <ParagraphFont
           style={{
