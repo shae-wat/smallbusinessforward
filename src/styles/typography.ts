@@ -67,6 +67,7 @@ export const BoldText = styled.span`
 `;
 
 export const LinkText = styled.a`
+  cursor: pointer;
   &,
   &:visited {
     display: inline;

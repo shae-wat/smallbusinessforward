@@ -25,7 +25,11 @@ import {
 } from "../styles";
 import { Card, CardTextContent, CardImageContent } from "../views";
 
-const FeaturedWorkPage: React.FC = () => {
+interface HomePageProps {
+  onEndorsementsPageClick: () => void;
+}
+
+const HomePage: React.FC<HomePageProps> = (props: HomePageProps) => {
   return (
     <Page>
       <PageCardLayout>
@@ -60,7 +64,10 @@ const FeaturedWorkPage: React.FC = () => {
           target="_blank"
           href="https://actionnetwork.org/forms/subscribe-small-business-forward/"
         >
-          Sign up for the newsletter
+          Click to Sign Up for Our Newsletter
+        </Button>
+        <Button onClick={() => props.onEndorsementsPageClick()}>
+          Click See Our 2024 General Election Endorsements
         </Button>
         <div
           style={{
@@ -68,93 +75,6 @@ const FeaturedWorkPage: React.FC = () => {
             paddingTop: `${rhythm(2)}px`,
           }}
         >
-          <a href="https://www.instagram.com/p/C_dzMW4y00o/" target="_blank">
-            <Card style={{ flexDirection: "column", alignItems: "center" }}>
-              <HeaderFont
-                style={{ color: Colors.white, paddingBottom: "24px" }}
-              >
-                2024 General Election Endorsements
-              </HeaderFont>
-              <CardImageContent>
-                <img
-                  src={EndorsedAaron}
-                  alt="endorsed california ballot measures general election 2024"
-                  style={{
-                    display: "block",
-                    height: "auto",
-                    width: "100%",
-                    objectFit: "contain",
-                  }}
-                />
-              </CardImageContent>
-            </Card>
-            <Card>
-              <CardImageContent>
-                <img
-                  src={EndorsedConnie}
-                  alt="endorsed california ballot measures general election 2024"
-                  style={{
-                    display: "block",
-                    width: "100%",
-                    height: "auto",
-                    objectFit: "contain",
-                  }}
-                />
-              </CardImageContent>
-              <CardImageContent>
-                <img
-                  src={EndorsedDean}
-                  alt="endorsed california ballot measures general election 2024"
-                  style={{
-                    display: "block",
-                    width: "100%",
-                    height: "auto",
-                    objectFit: "contain",
-                  }}
-                />
-              </CardImageContent>
-              <CardImageContent>
-                <img
-                  src={EndorsedJackie}
-                  alt="endorsed california ballot measures general election 2024"
-                  style={{
-                    display: "block",
-                    width: "100%",
-                    height: "auto",
-                    objectFit: "contain",
-                  }}
-                />
-              </CardImageContent>
-            </Card>
-          </a>
-          <a href="https://www.instagram.com/p/C_dn9Pdvc0S/" target="_blank">
-            <Card>
-              <CardImageContent>
-                <img
-                  src={EndorsedCA}
-                  alt="endorsed california ballot measures general election 2024"
-                  style={{
-                    display: "block",
-                    width: "100%",
-                    height: "auto",
-                    objectFit: "contain",
-                  }}
-                />
-              </CardImageContent>
-              <CardImageContent>
-                <img
-                  src={EndorsedSF}
-                  alt="endorsed san francisco ballot measures general election 2024"
-                  style={{
-                    display: "block",
-                    width: "100%",
-                    height: "auto",
-                    objectFit: "contain",
-                  }}
-                />
-              </CardImageContent>
-            </Card>
-          </a>
           <Card>
             <CardTextContent style={{ width: "30%" }}>
               <img
@@ -396,4 +316,4 @@ const FeaturedWorkPage: React.FC = () => {
   );
 };
 
-export default FeaturedWorkPage;
+export default HomePage;
