@@ -14,6 +14,7 @@ import {
   EndorsedJackie,
   EndorsedCA,
   EndorsedSF,
+  SBFBoard,
 } from "../images";
 import {
   HeaderFont,
@@ -22,6 +23,7 @@ import {
   rhythm,
   LinkText,
   Button,
+  MicroFont,
 } from "../styles";
 import { Card, CardTextContent, CardImageContent } from "../views";
 
@@ -304,24 +306,67 @@ class HomePage extends React.Component<HomePageProps> {
               </CardTextContent>
             </Card>
           </div>
-          <Button
-            target="_blank"
-            href="https://actionnetwork.org/forms/subscribe-small-business-forward/"
-          >
-            Sign up for the newsletter
-          </Button>
-          <Button
-            target="_blank"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSddzNGNtlMiXp5aCUK3a4QtSPAF0Cv21SW_7RtZMkcj9JGPQw/viewform"
-          >
-            Become a member
-          </Button>
-          <Button
-            target="_blank"
-            href="https://actionnetwork.org/fundraising/donate-small-business-forward/"
-          >
-            Donate
-          </Button>
+
+          <Card style={{ width: "60%" }}>
+            <CardTextContent style={{ width: "60%", paddingBottom: 0 }}>
+              <HeaderFont>
+                We believe our city can allow our diverse small business
+                community to thrive
+              </HeaderFont>
+              <ParagraphFont color={Colors.offBlack}>
+                We serve as a resource for small business owners and workers as
+                they seek to economically prosper in the city that we love.
+              </ParagraphFont>
+              <ParagraphFont color={Colors.offBlack}>
+                Please join us today!
+              </ParagraphFont>
+              <ParagraphFont color={Colors.offBlack}>
+                Sincerely, Small Business Forward Board
+              </ParagraphFont>
+              <Button
+                target="_blank"
+                href="https://actionnetwork.org/forms/subscribe-small-business-forward/"
+              >
+                Sign up for the newsletter
+              </Button>
+              <Button
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSddzNGNtlMiXp5aCUK3a4QtSPAF0Cv21SW_7RtZMkcj9JGPQw/viewform"
+              >
+                Become a member
+              </Button>
+              <Button
+                target="_blank"
+                href="https://actionnetwork.org/fundraising/donate-small-business-forward/"
+              >
+                Donate
+              </Button>
+              <Button
+                target="_blank"
+                href="mailto:smallbusinessforward@gmail.com"
+              >
+                Email us
+              </Button>
+            </CardTextContent>
+
+            <CardImageContent style={{ width: "50%" }}>
+              <img
+                src={SBFBoard}
+                alt="Small Business Forward Board Members"
+                style={{
+                  display: "block",
+                  width: "100%",
+                  height: "auto",
+                  objectFit: "contain",
+                }}
+              />
+              <MicroFont style={{ color: Colors.offBlack, marginTop: "8px" }}>
+                Justin Dolezal, Co-owner Bar Part Time, Christin Evans, Co-owner
+                Booksmith and Alembic, Nicholas Parker, Owner Mercury Cafe,
+                Yolanda Porrata, Owner VERA Skin Studio
+              </MicroFont>
+            </CardImageContent>
+          </Card>
         </PageCardLayout>
       </Page>
     );

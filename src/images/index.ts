@@ -14,3 +14,4 @@ export { default as EndorsedDean } from "./endorsed-dean.png";
 export { default as EndorsedJackie } from "./endorsed-jackie.png";
 export { default as EndorsedCA } from "./endorsed-ca.png";
 export { default as EndorsedSF } from "./endorsed-sf.png";
+export { default as SBFBoard } from "./sbf-board-outside.jpg";
