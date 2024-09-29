@@ -308,7 +308,7 @@ class HomePage extends React.Component<HomePageProps> {
           </div>
 
           <Card style={{ width: "60%" }}>
-            <CardTextContent style={{ width: "60%", paddingBottom: 0 }}>
+            <CardTextContent style={{ width: "60%" }}>
               <HeaderFont>
                 We believe our city can allow our diverse small business
                 community to thrive
@@ -320,7 +320,10 @@ class HomePage extends React.Component<HomePageProps> {
               <ParagraphFont color={Colors.offBlack}>
                 Please join us today!
               </ParagraphFont>
-              <ParagraphFont color={Colors.offBlack}>
+              <ParagraphFont
+                color={Colors.offBlack}
+                style={{ paddingBottom: "12px" }}
+              >
                 Sincerely, Small Business Forward Board
               </ParagraphFont>
               <Button
@@ -361,9 +364,9 @@ class HomePage extends React.Component<HomePageProps> {
                 }}
               />
               <MicroFont style={{ color: Colors.offBlack, marginTop: "8px" }}>
-                Justin Dolezal, Co-owner Bar Part Time, Christin Evans, Co-owner
-                Booksmith and Alembic, Nicholas Parker, Owner Mercury Cafe,
-                Yolanda Porrata, Owner VERA Skin Studio
+                Nicholas Parker, Owner Mercury Cafe, Christin Evans, Co-owner
+                Booksmith and Alembic, Yolanda Porrata, Owner VERA Skin Studio,
+                Justin Dolezal, Co-owner Bar Part Time,
               </MicroFont>
             </CardImageContent>
           </Card>
