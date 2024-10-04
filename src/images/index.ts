@@ -15,3 +15,5 @@ export { default as EndorsedJackie } from "./endorsed-jackie.png";
 export { default as EndorsedCA } from "./endorsed-ca.png";
 export { default as EndorsedSF } from "./endorsed-sf.png";
 export { default as SBFBoard } from "./sbf-board-outside.jpg";
+export { default as AnniversaryParty } from "./anniversary-2024-10-28-party-invite.png";
+export { default as ProtectionsTownhall } from "./protections-townhall.png";

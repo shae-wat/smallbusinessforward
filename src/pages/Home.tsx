@@ -15,6 +15,8 @@ import {
   EndorsedCA,
   EndorsedSF,
   SBFBoard,
+  ProtectionsTownhall,
+  AnniversaryParty,
 } from "../images";
 import {
   HeaderFont,
@@ -71,6 +73,49 @@ class HomePage extends React.Component<HomePageProps> {
               </ParagraphFont>
             </CardTextContent>
           </Card>
+          <Card style={{ width: "50%" }}>
+            <CardTextContent style={{ width: "60%", paddingBottom: 0 }}>
+              <HeaderFont>
+                The San Francisco small business community is facing rising
+                costs and zoning changes that could lead to our displacement
+              </HeaderFont>
+              <ParagraphFont color={Colors.offBlack}>
+                Join us for a town hall to discuss business protection options
+                that apply to all small businesses citywide, including legacy
+                protections and insurance affordability.
+              </ParagraphFont>
+              <ParagraphFont color={Colors.offBlack}>
+                Anyone who cares about keeping small businesses in San Francisco
+                is welcome to attend! Let’s keep this small business community
+                around a little longer.
+              </ParagraphFont>
+              <LinkText
+                color={Colors.darkBlue}
+                target="_blank"
+                href="https://actionnetwork.org/events/small-business-protections-town-hall/"
+              >
+                RSVP today
+              </LinkText>
+            </CardTextContent>
+
+            <CardImageContent style={{ width: "50%" }}>
+              <a
+                target="_blank"
+                href="https://actionnetwork.org/events/small-business-protections-town-hall/"
+              >
+                <img
+                  src={ProtectionsTownhall}
+                  alt="Small Business Forward"
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
+                  }}
+                />
+              </a>
+            </CardImageContent>
+          </Card>
           <Button
             target="_blank"
             href="https://actionnetwork.org/forms/subscribe-small-business-forward/"
@@ -80,6 +125,45 @@ class HomePage extends React.Component<HomePageProps> {
           <Button onClick={() => this.props.onEndorsementsPageClick()}>
             Click See Our 2024 General Election Endorsements
           </Button>
+          <Card style={{ width: "50%" }}>
+            <CardImageContent style={{ width: "50%" }}>
+              <a
+                target="_blank"
+                href="https://partiful.com/e/AqL1YaJrx3qaOtDMZ6Qk?"
+              >
+                <img
+                  src={AnniversaryParty}
+                  alt="Small Business Forward"
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
+                  }}
+                />
+              </a>
+            </CardImageContent>
+            <CardTextContent style={{ width: "60%", paddingBottom: 0 }}>
+              <HeaderFont>
+                Mark your calendars: Our group's anniversary party is coming up
+              </HeaderFont>
+              <ParagraphFont color={Colors.offBlack}>
+                We will be celebrating our major accomplishments, milestones,
+                and wins from the past year.
+              </ParagraphFont>
+              <ParagraphFont color={Colors.offBlack}>
+                We are so grateful for all the small businesses that have made
+                this group what it is today.
+              </ParagraphFont>
+              <LinkText
+                color={Colors.darkBlue}
+                target="_blank"
+                href="https://partiful.com/e/AqL1YaJrx3qaOtDMZ6Qk?"
+              >
+                RSVP today
+              </LinkText>
+            </CardTextContent>
+          </Card>
           <div
             style={{
               background: Colors.cardBackground,
