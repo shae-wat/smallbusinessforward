@@ -15,7 +15,7 @@ import {
   EndorsedCA,
   EndorsedSF,
   SBFBoard,
-  ProtectionsTownhall,
+  UpzoningMap,
   AnniversaryParty,
 } from "../images";
 import {
@@ -73,49 +73,7 @@ class HomePage extends React.Component<HomePageProps> {
               </ParagraphFont>
             </CardTextContent>
           </Card>
-          <Card style={{ width: "50%" }}>
-            <CardTextContent style={{ width: "60%", paddingBottom: 0 }}>
-              <HeaderFont>
-                The San Francisco small business community is facing rising
-                costs and zoning changes that could lead to our displacement
-              </HeaderFont>
-              <ParagraphFont color={Colors.offBlack}>
-                Join us for a town hall to discuss business protection options
-                that apply to all small businesses citywide, including legacy
-                protections and insurance affordability.
-              </ParagraphFont>
-              <ParagraphFont color={Colors.offBlack}>
-                Anyone who cares about keeping small businesses in San Francisco
-                is welcome to attend! Let’s keep this small business community
-                around a little longer.
-              </ParagraphFont>
-              <LinkText
-                color={Colors.darkBlue}
-                target="_blank"
-                href="https://actionnetwork.org/events/small-business-protections-town-hall/"
-              >
-                RSVP today
-              </LinkText>
-            </CardTextContent>
 
-            <CardImageContent style={{ width: "50%" }}>
-              <a
-                target="_blank"
-                href="https://actionnetwork.org/events/small-business-protections-town-hall/"
-              >
-                <img
-                  src={ProtectionsTownhall}
-                  alt="Small Business Forward"
-                  style={{
-                    display: "block",
-                    width: "100%",
-                    height: "auto",
-                    objectFit: "contain",
-                  }}
-                />
-              </a>
-            </CardImageContent>
-          </Card>
           <Button
             target="_blank"
             href="https://actionnetwork.org/forms/subscribe-small-business-forward/"
@@ -163,6 +121,63 @@ class HomePage extends React.Component<HomePageProps> {
                 RSVP today
               </LinkText>
             </CardTextContent>
+          </Card>
+          <Card style={{ width: "50%" }}>
+            <CardTextContent style={{ width: "60%", paddingBottom: 0 }}>
+              <HeaderFont>
+                The San Francisco small business community is facing rising
+                costs and zoning changes that could lead to our displacement
+              </HeaderFont>
+              <ParagraphFont color={Colors.offBlack}>
+                Here is a map where you can search your address and see if you
+                are in an area with proposed zoning changes, which target
+                commercial corridors.
+              </ParagraphFont>
+              <ParagraphFont color={Colors.offBlack}>
+                Upzoning means developers will rebuild with the goal of more
+                units and taller buildings. It automatically makes properties
+                more valuable for developers, incentivizing them to destroy and
+                rebuild whatever to achieve a profit margin.
+              </ParagraphFont>
+              <LinkText
+                color={Colors.darkBlue}
+                target="_blank"
+                href="https://experience.arcgis.com/experience/6e0e399f9c82456dbda233eacebc433d/"
+              >
+                Link to map
+              </LinkText>
+            </CardTextContent>
+
+            <CardImageContent style={{ width: "50%" }}>
+              <a
+                target="_blank"
+                href="https://experience.arcgis.com/experience/6e0e399f9c82456dbda233eacebc433d/"
+              >
+                <img
+                  src={UpzoningMap}
+                  alt="Small Business Forward"
+                  style={{
+                    display: "block",
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
+                  }}
+                />
+              </a>
+              <ParagraphFont color={Colors.offBlack}>
+                <LinkText
+                  color={Colors.darkBlue}
+                  target="_blank"
+                  href="https://experience.arcgis.com/experience/6e0e399f9c82456dbda233eacebc433d/"
+                >
+                  Map
+                </LinkText>{" "}
+                from San Francisco Planning: Expanding Housing Choice (Housing
+                Element Zoning Program) is a required implementation action from
+                the adopted 2022 Housing Element, and will help the City meet
+                state requirements to plan for 82,000 new homes.
+              </ParagraphFont>
+            </CardImageContent>
           </Card>
           <div
             style={{
