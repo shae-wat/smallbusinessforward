@@ -8,15 +8,8 @@ import {
   Platform4,
   Platform5,
   Platform6,
-  EndorsedAaron,
-  EndorsedConnie,
-  EndorsedDean,
-  EndorsedJackie,
-  EndorsedCA,
-  EndorsedSF,
   SBFBoard,
   UpzoningMap,
-  AnniversaryParty,
 } from "../images";
 import {
   HeaderFont,
@@ -83,45 +76,7 @@ class HomePage extends React.Component<HomePageProps> {
           <Button onClick={() => this.props.onEndorsementsPageClick()}>
             Click See Our 2024 General Election Endorsements
           </Button>
-          <Card style={{ width: "50%" }}>
-            <CardImageContent style={{ width: "50%" }}>
-              <a
-                target="_blank"
-                href="https://partiful.com/e/AqL1YaJrx3qaOtDMZ6Qk?"
-              >
-                <img
-                  src={AnniversaryParty}
-                  alt="Small Business Forward"
-                  style={{
-                    display: "block",
-                    width: "100%",
-                    height: "auto",
-                    objectFit: "contain",
-                  }}
-                />
-              </a>
-            </CardImageContent>
-            <CardTextContent style={{ width: "60%", paddingBottom: 0 }}>
-              <HeaderFont>
-                Mark your calendars: Our group's anniversary party is coming up
-              </HeaderFont>
-              <ParagraphFont color={Colors.offBlack}>
-                We will be celebrating our major accomplishments, milestones,
-                and wins from the past year.
-              </ParagraphFont>
-              <ParagraphFont color={Colors.offBlack}>
-                We are so grateful for all the small businesses that have made
-                this group what it is today.
-              </ParagraphFont>
-              <LinkText
-                color={Colors.darkBlue}
-                target="_blank"
-                href="https://partiful.com/e/AqL1YaJrx3qaOtDMZ6Qk?"
-              >
-                RSVP today
-              </LinkText>
-            </CardTextContent>
-          </Card>
+
           <Card style={{ width: "50%" }}>
             <CardTextContent style={{ width: "60%", paddingBottom: 0 }}>
               <HeaderFont>
