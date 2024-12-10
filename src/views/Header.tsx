@@ -9,9 +9,19 @@ import {
   HeaderFont,
   HEADER_HEIGHT,
   DesktopOnlyButton,
-  LinkText,
 } from "../styles";
 import { SBFLogoCircle } from "../images";
+
+// <LinkText
+//   style={{ marginRight: "24px" }}
+//   onClick={
+//     props.page == "Home"
+//       ? () => props.onEndorsementsPageClick()
+//       : () => props.onHomePageClick()
+//   }
+// >
+//   {props.page == "Home" ? "2024 Endorsements" : "Home"}
+// </LinkText>
 
 const AppHeader = styled.header`
   position: -webkit-sticky; /* for browser compatibility */
@@ -56,16 +66,6 @@ const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
         <img src={SBFLogoCircle} height={66} alt="Small Business Forward" />
       </AppTitle>
       <div>
-        <LinkText
-          style={{ marginRight: "24px" }}
-          onClick={
-            props.page == "Home"
-              ? () => props.onEndorsementsPageClick()
-              : () => props.onHomePageClick()
-          }
-        >
-          {props.page == "Home" ? "2024 Endorsements" : "Home"}
-        </LinkText>
         <DesktopOnlyButton
           target="_blank"
           href="https://actionnetwork.org/forms/subscribe-small-business-forward/"

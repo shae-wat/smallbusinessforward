@@ -73,9 +73,6 @@ class HomePage extends React.Component<HomePageProps> {
           >
             Click to Sign Up for Our Newsletter
           </Button>
-          <Button onClick={() => this.props.onEndorsementsPageClick()}>
-            Click See Our 2024 General Election Endorsements
-          </Button>
 
           <Card style={{ width: "50%" }}>
             <CardTextContent style={{ width: "60%", paddingBottom: 0 }}>
