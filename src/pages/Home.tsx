@@ -81,9 +81,15 @@ class HomePage extends React.Component<HomePageProps> {
                 costs and zoning changes that could lead to our displacement
               </HeaderFont>
               <ParagraphFont color={Colors.offBlack}>
-                Here is a map where you can search your address and see if you
-                are in an area with proposed zoning changes, which target
-                commercial corridors.
+                <LinkText
+                  color={Colors.darkBlue}
+                  target="_blank"
+                  href="https://experience.arcgis.com/experience/6e0e399f9c82456dbda233eacebc433d/"
+                >
+                  Here is a map
+                </LinkText>{" "}
+                where you can search your address and see if you are in an area
+                with proposed zoning changes, which target commercial corridors.
               </ParagraphFont>
               <ParagraphFont color={Colors.offBlack}>
                 Upzoning means developers will rebuild with the goal of more
@@ -91,13 +97,12 @@ class HomePage extends React.Component<HomePageProps> {
                 more valuable for developers, incentivizing them to destroy and
                 rebuild whatever to achieve a profit margin.
               </ParagraphFont>
-              <LinkText
-                color={Colors.darkBlue}
-                target="_blank"
-                href="https://experience.arcgis.com/experience/6e0e399f9c82456dbda233eacebc433d/"
-              >
-                Link to map
-              </LinkText>
+              <ParagraphFont color={Colors.offBlack}>
+                Without these upzoning plans, the city can still meet state
+                mandates through filling tens of thousands of existing vacancies
+                or through strategic development already being driven by
+                community and merchant input.
+              </ParagraphFont>
             </CardTextContent>
 
             <CardImageContent style={{ width: "50%" }}>
@@ -113,21 +118,22 @@ class HomePage extends React.Component<HomePageProps> {
                     width: "100%",
                     height: "auto",
                     objectFit: "contain",
+                    marginBottom: "18px",
                   }}
                 />
               </a>
+
               <ParagraphFont color={Colors.offBlack}>
+                Right now{" "}
                 <LinkText
                   color={Colors.darkBlue}
                   target="_blank"
                   href="https://experience.arcgis.com/experience/6e0e399f9c82456dbda233eacebc433d/"
                 >
-                  Map
+                  Former Mayor London Breed’s upzoning plans
                 </LinkText>{" "}
-                from San Francisco Planning: Expanding Housing Choice (Housing
-                Element Zoning Program) is a required implementation action from
-                the adopted 2022 Housing Element, and will help the City meet
-                state requirements to plan for 82,000 new homes.
+                stand to displace even more community members and small
+                businesses out of the city.
               </ParagraphFont>
             </CardImageContent>
           </Card>
@@ -369,7 +375,7 @@ class HomePage extends React.Component<HomePageProps> {
                 they seek to economically prosper in the city that we love.
               </ParagraphFont>
               <ParagraphFont color={Colors.offBlack}>
-                Please join us today!
+                Please join us or reach out today!
               </ParagraphFont>
               <ParagraphFont
                 color={Colors.offBlack}

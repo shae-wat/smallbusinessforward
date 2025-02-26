@@ -40,7 +40,7 @@ export const Button = styled.a`
     display: block;
     text-decoration: none;
     color: ${Colors.white};
-    background-color: ${Colors.black};
+    background-color: ${Colors.darkBlue};
     font-weight: bold;
     padding: 20px;
     border-radius: 6px;
