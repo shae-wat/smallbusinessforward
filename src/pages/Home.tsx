@@ -97,12 +97,6 @@ class HomePage extends React.Component<HomePageProps> {
                 more valuable for developers, incentivizing them to destroy and
                 rebuild whatever to achieve a profit margin.
               </ParagraphFont>
-              <ParagraphFont color={Colors.offBlack}>
-                Without these upzoning plans, the city can still meet state
-                mandates through filling tens of thousands of existing vacancies
-                or through strategic development already being driven by
-                community and merchant input.
-              </ParagraphFont>
             </CardTextContent>
 
             <CardImageContent style={{ width: "50%" }}>
@@ -124,19 +118,25 @@ class HomePage extends React.Component<HomePageProps> {
               </a>
 
               <ParagraphFont color={Colors.offBlack}>
-                Right now{" "}
                 <LinkText
                   color={Colors.darkBlue}
                   target="_blank"
                   href="https://experience.arcgis.com/experience/6e0e399f9c82456dbda233eacebc433d/"
                 >
-                  Former Mayor London Breed’s upzoning plans
+                  Mayor Lurie’s proposed upzoning plans
                 </LinkText>{" "}
-                stand to displace even more community members and small
-                businesses out of the city.
+                stand to displace small businesses and the people who work at
+                small businesses out of San Francisco.
               </ParagraphFont>
             </CardImageContent>
           </Card>
+          <Button
+            target="_blank"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSetVQOmOR67C2Fqy8U7npcBVOlsgtVqro1idjWWowX6X05jwQ/viewform"
+          >
+            Click to Sign Onto Letter for Permanent Controls for
+            Neighborhood-Serving Businesses Letter
+          </Button>
           <div
             style={{
               background: Colors.cardBackground,
